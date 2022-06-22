@@ -6,12 +6,12 @@ function Dropdown({ selected, setSelected }) {
   const options = ["S1", "S2", "S3",'S4','S5','S6','S7','S8','S9'];
   const option = ["M1", "M2", "M3",'M4','M5','M6'];
   return (
-    <div>
+    <div className="ota-mng">
         <Navbar/>
         <div className="title">
             OTA Management page
         </div>
-    <Container>
+    <Container className="box">
     <div className="dropdown">
         <div className="heading">
             Device

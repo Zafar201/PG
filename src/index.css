@@ -8,7 +8,7 @@ body {
   background: #fcfcfc;
 }
 
-.container {
+.ota-mng .box {
   height: auto;
   background-color: #e5e5e5;
   padding: 36px;
@@ -117,8 +117,13 @@ input[type=file]::file-selector-button {
     padding-bottom: 27px;
 
 }
-.navbar{
+.navbars{
   width: 100%;
   background: #9bc699;
-  height: 60px;
+  height: auto;
+}
+.navbars img{
+  width: 115px;
+  /* margin-left: 15px; */
+  padding: 8px;
 }
