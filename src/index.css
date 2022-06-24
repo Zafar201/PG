@@ -1,4 +1,4 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
@@ -124,6 +124,93 @@ input[type=file]::file-selector-button {
 }
 .navbars img{
   width: 115px;
-  /* margin-left: 15px; */
+
   padding: 8px;
+} */
+/* Clustor monitoring */
+
+body {
+  margin: 0;
+  font-family: 'Prompt', sans-serif;
+  color: white;
+  background: #202731;
+  overflow-x: hidden;
+}
+
+section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  min-height:150px;
+  padding-top: 70px;
+}
+
+.blue {
+  background-color: #D3ECF7;
+}
+.blue h1{
+  margin-left: 8%;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+
+.curve {
+  position: absolute;
+  height: 100px;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+}
+
+.curve::before {
+  content: '';
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%;
+  width: 55%;
+  height: 100%;
+  transform: translate(85%, 60%);
+  background-color: white;
+} 
+
+.curve::after {
+  content: '';
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%;
+  width: 55%;
+  height: 100%;
+  background-color: #D3ECF7;
+  transform: translate(-4%, 40%);
+  z-index: -1;
+}
+
+
+
+
+
+.clust-2{
+  margin-top: 80px;
+
+}
+.clust-2 .row{
+  text-align: center;
+}
+.clust-2 h3{
+ 
+  background: #1D87A4;
+  width: 56px;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 12px;
+
+
+}
+.clust-3{
+  margin-top: 32px !important;
+}
+.clust-3 h4{
+  font-size: 28px;
 }
