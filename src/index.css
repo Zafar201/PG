@@ -132,16 +132,15 @@ input[type=file]::file-selector-button {
 body {
   margin: 0;
   font-family: 'Prompt', sans-serif;
-  color: white;
-  background: #202731;
+ 
   overflow-x: hidden;
 }
 
-section {
+.section {
   position: relative;
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
+ 
   min-height:150px;
   padding-top: 70px;
 }
@@ -213,4 +212,5 @@ section {
 }
 .clust-3 h4{
   font-size: 28px;
+  margin-bottom: 30px;
 }
