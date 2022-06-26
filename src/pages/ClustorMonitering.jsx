@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Chart from "react-google-charts";
+import Navbar from "../components/Navbar";
 
 function getRandomNumber() {
   return Math.random() * 100;
@@ -9,7 +10,7 @@ function getRandomNumber() {
 export function getData() {
   return [
     ["Label", "Value"],
-    ["GaugeMeter", getRandomNumber()],
+    ["", getRandomNumber()],
     // ["CPU", getRandomNumber()],
     // ["Network", getRandomNumber()],
   ];
@@ -40,11 +41,12 @@ function ClustorMonitering() {
 
   return (
     <div>
-      <section class="blue section">
+      {/* <section class="blue section">
         <h1>Clustor monitoring</h1>
-        {/* <p>A website is like a road. The more curves it has the more interesting it is.</p> */}
+        <p>A website is like a road. The more curves it has the more interesting it is.</p>
         <div class="curve"></div>
-      </section>
+      </section> */}
+      <Navbar/>
 
       <Container className="clust-2">
         <Row>

@@ -6,7 +6,8 @@ function Navbar() {
     <div>
         <div className="navbars">
           <Container>
-           <img src='../assets/logo.png' alt="" />
+           {/* <img src='../assets/logo.png' alt="" /> */}
+           <h1>Clustor Monitoring</h1>
            </Container>
         </div>
     </div>
