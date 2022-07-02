@@ -18,7 +18,7 @@ export function getData() {
 
 export const options = {
   width: '100%',
-  height: 220,
+  height: 320,
   redFrom: 90,
   redTo: 100,
   yellowFrom: 75,
@@ -52,30 +52,30 @@ function ClustorMonitering() {
         <Row>
           <h2>Number of nodes</h2>
           <center>
-            <h3>5</h3>
+            <h3>2</h3>
           </center>
         </Row>
 
         <Row className="clust-3">
           <Col>
-            <h4> node1</h4>
+            <h4> Node 1</h4>
             <center>
             <Chart
               chartType="Gauge"
               width="100%"
-              height="400px"
+              height="500px"
               data={data}
               options={options}
             />
             </center>
           </Col>
           <Col>
-            <h4> node2</h4>
+            <h4> Node 2</h4>
             <center>
             <Chart
               chartType="Gauge"
               width="100%"
-              height="400px"
+              height="500px"
               data={data}
               options={options}
             />
