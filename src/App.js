@@ -9,8 +9,8 @@ function App() {
   return (
     <div className="App">
 
-    {/* <DropDown selected={selected} setSelected={setSelected} /> */}
-    <ClustorMonitering/>
+    <DropDown selected={selected} setSelected={setSelected} />
+    {/* <ClustorMonitering/> */}
 
   </div>
   );

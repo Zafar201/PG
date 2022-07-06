@@ -1,4 +1,4 @@
-/* * {
+* {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
@@ -116,7 +116,13 @@ input[type=file]::file-selector-button {
     padding-top: 43px;
     padding-bottom: 27px;
 
-}*/
+  }
+  .image-item img{
+    width: 100%;
+  }
+  .upload__image-wrapper{
+    width: 85%;
+  }
 .navbars{
   width: 100%;
   background: #9bc699;
